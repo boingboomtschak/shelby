@@ -20,8 +20,10 @@ window.onload = function(){
 		answers["comment"] = [ct.value];
 		answers["social"] = [s1.value];
 		var data = {};
-		data["domain"] = document.;
+		//data["domain"] = document.;
 		data["user"] = user.value;
 		data["answers"] = answers.value;
-		window.alert(data["domain"]);
-		window.alert("off");
+		//window.alert(data["domain"]);
+		document.write("Thank you for your feedback!")
+	}
+}
