@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Chrome Extension Template with Twitter Bootstrap 3.0",
-	"description": "A basic template for a Chrome Extension using Twitter Bootstrap 3",
+	"name": "Shelby Chrome Extension",
+	"description": "An extension for Shelby",
 	"version": "1.0",
 
   "background": {
@@ -12,15 +12,15 @@
 	"permissions": [
 		   "webRequest","<all_urls>","storage"],
 	"icons": { 
-		"16": "img/icon16.png",
-		"48": "img/icon48.png",
-		"128": "img/icon128.png" 
+		"16": "img/logo.png",
+		"48": "img/logo.png",
+		"128": "img/logo.png" 
 	},
 
 	"browser_action": {
 		"default_icon": {                    
-			"19": "img/icon48.png",          
-			"38": "img/icon48.png"          
+			"19": "img/logo.png",          
+			"38": "img/logo.png"          
 		},
 		"default_popup": "popup.html"
 	},
