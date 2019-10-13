@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:800|Raleway:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/dash_bargraph.js"></script>
+    <script src="js/dash_piegraph.js"></script>
+    <title>shelby-dashboard</title>
+</head>
+
+<body onload="init()">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"></span>
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" width="40" height="auto" class="d-inline-block" alt="">
+                Shelby-learn
+            </a>
+        </div>
+
+    </nav>
+    <div class="container-fluid">
+        <div class="card h-100" style="background-color: #fafafa; min-width: 600px;">
+            <div class="row">
+                <div class="col align-items-stretch h-100">
+                    <div class="card h-100" style="min-width: 500px;">
+                        <div class="card-header">
+                            <ul class="nav nav-pills card-header-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Active</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="card text-center h-100">
+                                    <img alt="Card image cap" class="card-img-top img-fluid"
+                                        src="assets/IMG_6858.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">_username </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">_userdata </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-center h-100" style="min-width: 250px;">
+                        <div class="card-header">To do:</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Add Task</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="card text-center h-100" style="min-width: 250px;">
+            <div id="barGraph" style="height: 600px; margin: 10px;"></div>
+            <div class="card-footer text-center">Assessment</div>
+        </div>
+    </div>
+</body>
+
+</html>

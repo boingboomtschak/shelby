@@ -1,0 +1,32 @@
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    border-color: lightgray;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15px;
+    object-fit: cover;
+}
+
+#menu{
+    font-weight: 600;
+}
+
+body{
+    margin: 10px;
+    padding-top: 90px;
+    
+}
+
+div{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+}
+
+.card-title{
+    font-family: 'Muli';
+    font-weight: 800px;
+}
