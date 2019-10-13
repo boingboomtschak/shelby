@@ -46,13 +46,6 @@ header.masthead .row .col{
 }
 
 
-.bg-circle .fas{
-    font-size: 6vw;
-    margin-right: 0vw;
-    color: rgb(93, 217, 141);
-    position: relative;
-}
-
 h6{
     font-weight: 800;
 }
@@ -118,7 +111,7 @@ h4, p{
     margin-bottom: 3vw;
 }
 
-.circle2 .far, .circle2 .fas{
+.circle2 .far, .circle2 .fas, .circle2 .fab{
     padding-top: 1.2vw;
 }
 
@@ -134,7 +127,7 @@ h4, p{
 
 .green{
     background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(93, 217, 141, 0.35));
-    color: rgb(93, 217, 141)
+    color:#4AD37F;
 }
 .orange{
     background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(250, 123, 56, 0.35));
