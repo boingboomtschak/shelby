@@ -1,49 +1,152 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Muli:800,600,400|Raleway:400,800&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-            <script src="https://kit.fontawesome.com/ff052955e7.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-            <!-- <script src="js/script.js"></script> -->
-        <title>Shelby</title>
-    </head>
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:800,600,400|Raleway:400,800&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Shelby</title>
+</head>
 
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="d-flex flex-grow-1">
-                <span class="w-100 d-lg-none d-block"></span>
-                <a class="navbar-brand" href="#">
-                    <img src="assets/logo.png" width="40" height="auto" class="d-inline-block" alt="">
-                    Shelby
-                </a>
-                <div class="w-100 text-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" width="55" height="auto" class="d-inline-block" alt="">
+                Shelby
+            </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <header class="masthead text-center">
+            <div class="row">
+                <div class="col">
+                    <h5 class="heading">Shelby</h5>
+                    <h2 class="subheading">Learning one sentence blah</h2>
+                </div>
+                <div class="col">
                 </div>
             </div>
-            <div class="collapse navbar-collapse flex-grow-1 text-right" id="menu">
-                <ul class="navbar-nav ml-auto flex-nowrap">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Login</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Sign up</a>
-                    </li>
-                </ul>
+        </header>
+        <div class="bg-circle"></div>
+        <div class="challenge">
+            <div class="row">
+                <div class="col student_img float-left">
+                    <img src="assets/student-01.png" alt="Student resting her head on a book, looking to the right" class="img-fluid">
+                </div>
+                <div class="col">
+                    <h6 class="heading mb-0">01 - Challenge</h6>
+                    <h4 class="subheading mb-0">Accessibility</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="mb-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>     
+                    <p class="mb-0"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
             </div>
-        </nav>
-        
+        </div>
+        <div class="goals">
+            <h6 class="text-center heading mb-0">02 - Project Goals</h6>
+            <h4 class="text-center subheading mb-0">Assisting the community</h4>
+            <div class="container">
+                <div class="row icons">
+                    <div class="col">
+                        <div class="circle blue">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <h6 class="text-center">Intuitiveness</h6>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="col">
+                        <div class="circle green">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h6 class="text-center">Data Storage</h6>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                     </div>
+                    <div class="col">
+                        <div class="circle orange">
+                            <i class="fas fa-undo"></i>
+                        </div>
+                        <h6 class="text-center">Consistent</h6>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="solution">
+            <div class="row">
+                <div class="col-4">
+                    <h6 class="heading mb-0">03 - Solution</h6>
+                    <h4 class="subheading mb-0">Outcome</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="mb-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>     
+                    <p class="mb-0"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="col">
+                        <div class="row icons">
+                            <div class="col">
+                                <div class="circle2 red">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h6 class="text-center">Dashboard</h6>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                            <div class="col">
+                                <div class="circle2 blue">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <h6 class="text-center">Time</h6>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur</p>
+                             </div>
+                        <div class="w-100"></div>
+
+                            <div class="col">
+                                <div class="circle2 green">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <h6 class="text-center">Courses</h6>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                            <div class="col">
+                                <div class="circle2 orange">
+                                    <i class="far fa-comments"></i>
+                                </div>
+                                <h6 class="text-center">Feedback</h6>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur</p>
+                                </div>
+                            </div>
+  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="design">
+            <h6 class="text-center heading mb-0">04 - Design</h6>
+            <h4 class="text-center subheading mb-0">User flow</h4>
+            <div class="flow">
+
+            </div>
+        </div>
     </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bf00958373.js" crossorigin="anonymous"></script>
 </html>

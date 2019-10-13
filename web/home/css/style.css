@@ -1,12 +1,148 @@
 
-body {
+html, body {
     font-family: Muli;
     color:#0A0A0A;
+    height: 100%;
+    padding: 0 3.5vw;
+    
 }
 .navbar-brand{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+
 }
-#menu{
+
+.navbar-custom {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: #fff;
+  }
+.nav-item{
     font-weight: 600;
 }
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    height: 85%;
+    width: 100%;
+  }
+
+header.masthead .row .col{
+    text-align: left;
+}
+
+.bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: rgba(0, 158, 255, 0.25);
+    height: 50vw;
+    width: 50vw;
+    top: 10vw;
+    right: -1vw;
+}
+
+
+.bg-circle .fas{
+    font-size: 6vw;
+    margin-right: 0vw;
+    color: rgb(93, 217, 141);
+    position: relative;
+}
+
+h6{
+    font-weight: 800;
+}
+.heading {
+    font-weight:800;
+    color:#28AD65;
+}
+.subheading {
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+h4, p{
+    padding-top: 25px;
+}
+
+.challenge, .goals, .solution{
+    min-height: 70%;
+    max-height: 85%;
+    padding-bottom: 15vw;
+}
+
+.goals{
+    padding-bottom:10vw;
+}
+
+.student_img{
+    left: -9vw;
+}
+.goals .icons{
+    padding-top: 4vw;
+}
+
+.circle{
+    height: 7.5vw;
+    width: 7.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    background-color: #fff;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 3.7vw;
+    margin-bottom: 3vw;
+}
+.goals p, .solution .icons p{
+    padding: 0 2vw;
+}
+
+.circle .far, .fas{
+    padding-top: 1.9vw;
+}
+
+.circle2{
+    height: 5vw;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    background-color: #fff;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 2.7vw;
+    margin-bottom: 3vw;
+}
+
+.circle2 .far, .circle2 .fas{
+    padding-top: 1.2vw;
+}
+
+
+.solution .icons p{
+    padding-bottom: 4vw;
+}
+
+.blue{
+    background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(0, 158, 255, 0.35));
+    color: rgb(0, 158, 255);
+}
+
+.green{
+    background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(93, 217, 141, 0.35));
+    color: rgb(93, 217, 141)
+}
+.orange{
+    background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(250, 123, 56, 0.35));
+    color: rgb(250, 123, 56)
+}
+
+.red{
+    background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(255, 103, 93, 0.35));
+    color: rgb(255,103,93);
+}
+
