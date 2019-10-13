@@ -1,8 +1,12 @@
+
+body {
+    font-family: Muli;
+    color:#0A0A0A;
+}
 .navbar-brand{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
 }
-.brand{
-    margin: 0;
-    float: none;
+#menu{
+    font-weight: 600;
 }
