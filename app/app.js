@@ -28,7 +28,7 @@ app.post('/submit/', (req, res) => {
 	}	
 });
 
-app.get("/get/user/", (req, res) => {
+app.get("/user/", (req, res) => {
 	ref = db.collection("users").doc(req.query.id).get()
 	.then(doc => {
 		if(!doc.exists) {
@@ -38,6 +38,35 @@ app.get("/get/user/", (req, res) => {
 		}
 	})
 });
+
+app.post("/user/create/", (req, res) => {
+	if(typeof(req.body.user) == "string"){
+		ref = db.collection("users").doc(req.body.user);
+	}else{
+		ref = db.collection("users").doc();
+	}
+	if(typeof(req.body.name) == "string"){
+		ref.set({
+			name : req.body.name,
+			date_joined : Date(),
+			affinity : {
+				visual: 1,
+				auditory : 1,
+				verbal : 1,
+				logical : 1,
+				social : 1,
+				solitary : 1
+			},
+			reports : {},
+			img : req.body.img
+		});
+		res.send("Success!")
+	}else{
+		res.send("Error: No name specified!");
+	}
+});
+
+// remove /test/ before 
 
 app.get("/test/", (req, res) => {
 	res.send(req.query);
