@@ -10,7 +10,7 @@
   "author": "Devon McKee, Stephen Wallen, Megan Gao, Eddie Avendano",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "firebase-admin": "^8.6.0"
   }
 }
